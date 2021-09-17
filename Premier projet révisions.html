@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- En-tête de la page -->
+    <meta charset="utf-8" />
+    <title>Titre</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <style>
+        h1 {
+            top: 50px;
+            right: 50px;
+            position: absolute;
+            margin: 0;
+            padding: 0;
+            color: rgb(179, 39, 39);
+        }
+    </style>
+    <h1>This is a Heading</h1>
+    <p>This is a paragraph.</p>
+    <p>This is another paragraph.</p>
+    <style>
+        .un {
+            list-style: url('arrow.svg') inside;
+            color: white;
+            background-color: black;
+            width: 150px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .un>li {
+            border-bottom: 1px solid white;
+            padding: 3px;
+            transition: ease 0.3s;
+        }
+
+        .un>li:hover .menu_item {
+            transition: ease 0.3s;
+            margin-left: 5px;
+            cursor: pointer;
+        }
+
+        .menu_item {
+            transition: 0.3s ease;
+        }
+    </style>
+    <!-- Corps de la page -->
+    <ul class="un">
+        <li><a alt="Home" class="menu_item">Home</a></li>
+        <li><a alt="About" class="menu_item">About</a></li>
+        <li><a alt="Services" class="menu_item">Services</a></li>
+        <li><a alt="Portfolio" class="menu_item">Portfolio</a></li>
+        <li><a alt="Store" class="menu_item">Store</a></li>
+        <li><a alt="Download Menu" class="menu_item">Download Menu</a></li>
+    </ul>
+    <br />
+    <style>
+        td {
+            width: 50px;
+            height: 50px;
+            border: 1px solid black;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        .dd {
+            background-color: rgb(138, 34, 34);
+            color: white;
+        }
+
+        .ddd {
+            background-color: rgb(219, 59, 59);
+        }
+    </style>
+    <table>
+        <tr class="dd">
+            <td>1,a</td>
+            <td>1,b</td>
+            <td>1,c</td>
+            <td>1,d</td>
+        </tr>
+        <tr class="ddd">
+            <td>2,a</td>
+            <td>2,b</td>
+            <td>2,c</td>
+            <td>2,d</td>
+        </tr>
+        <tr class="dd">
+            <td>3,a</td>
+            <td>3,b</td>
+            <td>3,c</td>
+            <td>3,d</td>
+        </tr>
+        <tr class="ddd">
+            <td>4,a</td>
+            <td>4,b</td>
+            <td>4,c</td>
+            <td>4,d</td>
+        </tr>
+        </div>
+    </table>
+</body>
+
+</html>
